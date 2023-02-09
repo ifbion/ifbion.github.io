@@ -1069,11 +1069,11 @@ figure .pin-copy {
 }
 
 html, body {
-  font-size: 10px;
+  font-size: 12px;
   letter-spacing: 0.01rem;
   background-color: var(--bg-body);
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
-  font-family: Consolas, "Liberation Mono", Menlo, Monaco, "Noto Serif SC", "Noto Serif SC Black", "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+  font-family: "Noto Serif SC", Consolas, "Liberation Mono", Menlo, Monaco, "Noto Serif SC Black", "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
 }
 
 body.hidden {
@@ -1147,7 +1147,7 @@ a:hover {
 }
 
 .container {
-  width: 50%;
+  width: 55%;
   margin: 0 auto;
 }
 
@@ -1257,7 +1257,7 @@ a:hover {
   text-align: center;
   margin-right: 30px;
   color: var(--color-text-base);
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 21px;
   /*font-family: 'Noto Serif SC','Raleway', 'Helvetica Neue', 'Arial', sans-serif;*/
 }
@@ -1294,7 +1294,7 @@ a:hover {
 }
 
 .avatar .nickname {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--color-text-a);
   padding-top: 10px;
@@ -1327,6 +1327,7 @@ a:hover {
   font-weight: bold;
   text-align: center;
 }
+
 
 @media (max-width: 888px) {
   .navbar ul li {
@@ -1437,14 +1438,14 @@ a:hover {
 
 .post-details .post-title {
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--color-text-a);
   padding-bottom: 10px;
 }
 
 .post-details .post-attach {
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: center;
   padding-bottom: 30px;
   color: var(--color-text-a);
