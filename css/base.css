@@ -8,7 +8,7 @@ html, body {
   letter-spacing: 0.01rem;
   background-color: var(--bg-body);
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
-  font-family: "Noto Serif SC", Consolas, "Liberation Mono", Menlo, Monaco, "Noto Serif SC Black", "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif
+  font-family: "Noto Serif SC", "Consolas", "Liberation Mono", "Menlo", "Monaco", "Noto Serif SC Black", "Source Han Sans CN", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "sans-serif"
 }
 
 body.hidden {
@@ -179,12 +179,13 @@ a:hover {
 
 .post-item {
   display: flex;
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   margin-bottom: 20px;
   align-items: center;
   justify-content: center;
   text-align: center;
   line-height: 35px;
+  
 }
 
 .post-item .time-m-d {
@@ -194,7 +195,7 @@ a:hover {
   color: var(--color-text-base);
   font-size: 1rem;
   line-height: 21px;
-  /*font-family: 'Noto Serif SC','Raleway', 'Helvetica Neue', 'Arial', sans-serif;*/
+  font-family: 'Noto Serif SC';
 }
 
 .post-item .title {
@@ -204,6 +205,7 @@ a:hover {
   word-wrap: break-word;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family:'Noto Serif SC Black'
 }
 
 .post-item .title .post-top {
@@ -233,6 +235,7 @@ a:hover {
   font-weight: 600;
   color: var(--color-text-a);
   padding-top: 10px;
+  font-family:'Noto Serif SC Black';
 }
 
 .content {
@@ -377,6 +380,7 @@ a:hover {
   font-weight: 600;
   color: var(--color-text-a);
   padding-bottom: 10px;
+  font-family:'Noto Serif SC Black'
 }
 
 .post-details .post-attach {
