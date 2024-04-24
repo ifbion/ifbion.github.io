@@ -8,7 +8,7 @@ html, body {
   letter-spacing: 0.01rem;
   background-color: var(--bg-body);
   transition: color 400ms ease-in-out 0s, background-color 400ms ease-in-out 0s;
-  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Bold", "Noto Serif SC ExtraLight", "Noto Serif SC Regular", "Noto Serif SC Light", "Noto Serif SC Medium"
+  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Light", 
 }
 
 body.hidden {
@@ -247,7 +247,6 @@ a:hover {
   font-size: 1.6rem;
   color: var(--color-text-a);
   margin-bottom: 20px;
-  /*font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;*/
 }
 
 .navbar {

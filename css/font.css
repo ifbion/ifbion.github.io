@@ -1,81 +1,21 @@
 
 @font-face {
     font-family: 'noto_serif_scblack';
-    src: url('notoserifsc-black-webfont.woff2') format('woff2'),
-         url('notoserifsc-black-webfont.woff') format('woff');
+    src: url('NotoSerifSC-Black.woff2') format('woff2'),
+         url('NotoSerifSC-Black.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
-
-
-
-
-@font-face {
-    font-family: 'noto_serif_scbold';
-    src: url('notoserifsc-bold-webfont.woff2') format('woff2'),
-         url('notoserifsc-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'noto_serif_scextralight';
-    src: url('notoserifsc-extralight-webfont.woff2') format('woff2'),
-         url('notoserifsc-extralight-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 
 
 @font-face {
     font-family: 'noto_serif_sclight';
-    src: url('notoserifsc-light-webfont.woff2') format('woff2'),
-         url('notoserifsc-light-webfont.woff') format('woff');
+    src: url('NotoSerifSC-Light.woff2') format('woff2'),
+         url('NotoSerifSC-Light.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
-
-
-
-@font-face {
-    font-family: 'noto_serif_scmedium';
-    src: url('notoserifsc-medium-webfont.woff2') format('woff2'),
-         url('notoserifsc-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'noto_serif_scregular';
-    src: url('notoserifsc-regular-webfont.woff2') format('woff2'),
-         url('notoserifsc-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'noto_serif_scsemibold';
-    src: url('notoserifsc-semibold-webfont.woff2') format('woff2'),
-         url('notoserifsc-semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
