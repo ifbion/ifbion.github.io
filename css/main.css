@@ -19,7 +19,7 @@
 
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
+  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Light"
 }
 
 .article-entry code {
@@ -85,7 +85,7 @@
 
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Light";
   margin: 0;
 }
 
@@ -2186,7 +2186,7 @@ a:hover {
     font-family: 'noto_serif_scblack';
     src: url('NotoSerifSC-Black.woff2') format('woff2'),
          url('NotoSerifSC-Black.woff') format('woff');
-    font-weight: normal;
+    font-weight: 900;
     font-style: normal;
 
 }
@@ -2197,11 +2197,47 @@ a:hover {
     font-family: 'noto_serif_sclight';
     src: url('NotoSerifSC-Light.woff2') format('woff2'),
          url('NotoSerifSC-Light.woff') format('woff');
-    font-weight: normal;
+    font-weight: 300;
     font-style: normal;
 
 }
 
+
+.noto-serif-sc-light {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.noto-serif-sc-regular {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-serif-sc-medium {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.noto-serif-sc-semibold {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.noto-serif-sc-bold {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.noto-serif-sc-black {
+  font-family: "Noto Serif SC", serif;
+  font-weight: 900;
+  font-style: normal;
+}
 
 .markdown-body code {
   color: #808080;

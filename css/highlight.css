@@ -19,7 +19,7 @@
 
 .article-entry pre,
 .article-entry code {
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace
+  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Light"
 }
 
 .article-entry code {
@@ -85,7 +85,7 @@
 
 .article-entry .gist .gist-file {
   border: none;
-  font-family: "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace;
+  font-family: "Noto Serif SC", "Noto Serif SC Black", "Noto Serif SC Light";
   margin: 0;
 }
 
