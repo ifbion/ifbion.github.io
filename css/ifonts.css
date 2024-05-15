@@ -1,0 +1,32 @@
+/* NotoSerifSC-Black */
+@font-face {
+  font-family: 'NotoSerifSC';
+  font-weight: 900;
+  font-style: normal;
+  src: url('fonts/NotoSerifSC-Black.eot');
+  src: url('fonts/NotoSerifSC-Black.eot?#iefix') format('embedded-opentype'),
+       url('fonts/NotoSerifSC-Black.woff2') format('woff2'),
+       url('fonts/NotoSerifSC-Black.woff') format('woff'),
+       url('fonts/NotoSerifSC-Black.ttf') format('truetype'),
+       url('fonts/NotoSerifSC-Black.svg#NotoSerifSC-Black') format('svg');
+}
+
+/* NotoSerifSC-Regular */
+@font-face {
+  font-family: 'NotoSerifSC';
+  font-weight: normal;
+  font-style: normal;
+  src: url('fonts/NotoSerifSC-Regular.eot');
+  src: url('fonts/NotoSerifSC-Regular.eot?#iefix') format('embedded-opentype'),
+       url('fonts/NotoSerifSC-Regular.woff2') format('woff2'),
+       url('fonts/NotoSerifSC-Regular.woff') format('woff'),
+       url('fonts/NotoSerifSC-Regular.ttf') format('truetype'),
+       url('fonts/NotoSerifSC-Regular.svg#NotoSerifSC-Regular') format('svg');
+}
+
+.ifonts {
+  font-family: "NotoSerifSC" !important;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
