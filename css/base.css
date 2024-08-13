@@ -400,6 +400,10 @@ a:hover {
 
 .post-content {
   padding-bottom: 1rem;
+  text-align: justify;
+  hyphens: auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .prev-or-next {

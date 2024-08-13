@@ -3,6 +3,7 @@
   font-family: 'NotoSerifSC';
   font-weight: 900;
   font-style: normal;
+  unicode-range: U+4E00-9FFF;
   src: url('fonts/NotoSerifSC-Black.eot');
   src: url('fonts/NotoSerifSC-Black.eot?#iefix') format('embedded-opentype'),
        url('fonts/NotoSerifSC-Black.woff2') format('woff2'),
@@ -16,6 +17,7 @@
   font-family: 'NotoSerifSC';
   font-weight: normal;
   font-style: normal;
+  unicode-range: U+4E00-9FFF;
   src: url('fonts/NotoSerifSC-Regular.eot');
   src: url('fonts/NotoSerifSC-Regular.eot?#iefix') format('embedded-opentype'),
        url('fonts/NotoSerifSC-Regular.woff2') format('woff2'),
@@ -24,8 +26,36 @@
        url('fonts/NotoSerifSC-Regular.svg#NotoSerifSC-Regular') format('svg');
 }
 
+/* georgia */
+@font-face {
+  font-family: 'georgia';
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0000-007F;
+  src: url('fonts/georgia.eot');
+  src: url('fonts/georgia.eot?#iefix') format('embedded-opentype'),
+       url('fonts/georgia.woff2') format('woff2'),
+       url('fonts/georgia.woff') format('woff'),
+       url('fonts/georgia.ttf') format('truetype'),
+       url('fonts/georgia.svg#georgia') format('svg');
+}
+
+/* georgiab */
+@font-face {
+  font-family: 'georgiab';
+  font-weight: 900;
+  font-style: normal;
+  unicode-range: U+0000-007F;
+  src: url('fonts/georgiab.eot');
+  src: url('fonts/georgiab.eot?#iefix') format('embedded-opentype'),
+       url('fonts/georgiab.woff2') format('woff2'),
+       url('fonts/georgiab.woff') format('woff'),
+       url('fonts/georgiab.ttf') format('truetype'),
+       url('fonts/georgiab.svg#georgiab') format('svg');
+}
+
 .ifonts {
-  font-family: "NotoSerifSC" !important;
+  font-family: "NotoSerifSC" "georgia" !important;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
